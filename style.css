@@ -1,0 +1,110 @@
+body{
+    background: #f3eae3;
+}
+.flex-container{
+    display: flex;
+    width: 600px;
+    margin: auto;
+   
+   
+}
+.product-image{
+    height:40% ;
+    width: 23%
+}
+.container1{
+    border-radius: 20%;
+}
+.container1, .container2{
+    width: 50%;
+    margin-top: 70px;
+   
+    
+}
+.container2{
+   border-top-right-radius: 10px;
+   border-bottom-right-radius:10px ;
+    background-color: white;
+}
+.container2 > div, .product{
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.product-image{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+   border-bottom-left-radius:10px ;
+    
+}
+.product{
+  letter-spacing:0.7rem;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.title{
+    font-family:'Fraunces',sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    margin: auto;
+}
+.about-product{
+    font-family:'Montserrat', sans-serif ;
+    color: gray;
+    font-size: 1rem;
+    font-style: bold;
+    margin-top: 12%;
+
+}
+.sale-price{
+    color:hsl(158, 36%, 37%) ;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 0%;
+}
+.base-price{
+    float: right;
+    text-decoration: line-through;
+    font-size: 20px;
+    padding-right: 2rem;
+   padding-bottom: 5px;
+   margin-top: 0.4rem;
+ 
+
+
+} 
+.prices{
+    display: flex;
+    justify-content: space-between;
+   
+} 
+   
+       
+button{
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    padding:16px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 15px;
+    border-radius: 10px;
+    width:100%;
+}
+
+
+    
+/*COLORS
+ background:hsl(30, 38%, 92%); -- ACTUAL BACKGROUND COLOR
+ color: hsl(158, 36%, 37%); -- PRICES --
+ color: hsl(0, 0%, 100%)---container 2 color-
+ color:  hsl(212, 21%, 14%)--title--
+ - Dark grayish blue: hsl(228, 12%, 48%)--description--
+  background: #083603;--btn--
+  background: #2d6b03;---btn hover-
+  font-family:'Fraunces',sans-serif; --h1--
+  font-family: 'Montserrat', sans-serif;--product and product-description--
+
+*/
